@@ -27,6 +27,7 @@ main {
     justify-content: center;
     align-content: center;
 }
+/*home page css*/
 .main-content-container {
     width: 80%;
     height: 80%;
@@ -54,4 +55,44 @@ footer {
     justify-content: center;
     align-content: center;
     text-align: center;
+}
+h3 {
+    align-self: center;
+}
+
+/*Question page css*/
+#question-page-main {
+    display: flex;
+    flex-direction: column;
+}
+.status {
+    padding: 10px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.radio-button {
+    padding: 5px;
+}
+#submit-button {
+    width: 60%;
+    align-self: center;
+    padding: 10px 5px;
+    margin-top: 5px;
+}
+
+/*main css for final-score*/
+#final-score-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+}
+.final-p-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
